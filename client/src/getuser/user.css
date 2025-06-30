@@ -1,0 +1,78 @@
+/* .UserTable{
+    width: 60%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 50px;
+    border-radius: 15px;
+    border: 1px solid #121010;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    
+}
+
+.UserTable table{
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+    
+
+}
+.UserTable table thead th{
+    background-color: darkcyan;
+    color: white;
+    vertical-align: middle;
+    padding: 12;
+}
+
+.UserTable table tbody td{
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    
+} */
+
+.UserTable .table-container {
+    width: 100%;
+    overflow-x: auto; /* ✅ Allows horizontal scrolling for small screens */
+}
+
+
+
+
+.UserTable {
+    width: 60%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 50px;
+    border-radius: 15px;
+    border: 1px solid #121010; /* ✅ Fixed typo */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.UserTable table {
+    min-width: 600px;
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse; /* ✅ Ensures clean table borders */
+}
+
+.UserTable table,
+.UserTable table th,
+.UserTable table td {
+    border: 1px solid #ddd; /* ✅ Adds separator lines */
+}
+
+.UserTable table thead th {
+    background-color: darkcyan;
+    color: white;
+    vertical-align: middle;
+    padding: 12px; /* ✅ Use actual padding value */
+}
+
+.UserTable table tbody td {
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+.actionButtons button {
+    margin: 0 10px; /* ✅ Adds space between buttons */
+}
